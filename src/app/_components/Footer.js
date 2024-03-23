@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const RestaurantFooter = () => {
+const Footer = () => {
     return (
         <div className="footer-wrapper">
             <p>All rights reserved by <b>Rest App</b></p>
@@ -8,4 +8,4 @@ const RestaurantFooter = () => {
     );
 }
 
-export default RestaurantFooter;
+export default Footer;

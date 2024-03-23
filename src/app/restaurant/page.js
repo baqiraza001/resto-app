@@ -5,7 +5,7 @@ import RestaurantLogin from "../_components/RestaurantLogin";
 import RestaurantSignup from "../_components/RestaurantSignup";
 import RestaurantHeader from "../_components/RestaurantHeader";
 import './style.css';
-import RestaurantFooter from "../_components/RestaurantFooter";
+import Footer from "../_components/Footer";
 
 const Restaurant = () => {
     const [login, setLogin] = useState(true);
@@ -21,7 +21,7 @@ const Restaurant = () => {
                     {login ? "Do not have account? SignUp" : "Already have account? Login"}
                 </button>
             </div>
-            <RestaurantFooter />
+            <Footer />
         </>
     );
 }
